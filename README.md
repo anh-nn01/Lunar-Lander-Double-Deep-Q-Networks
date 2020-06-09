@@ -54,3 +54,6 @@ The equation above based on Bellman equation. You can try creating a sample grap
 <img src="NextGen.gif">
 
 <br><br>
+Commplete evolution (training process): https://youtu.be/XopVALk2xb4
+
+<br><br>
