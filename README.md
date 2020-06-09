@@ -11,8 +11,8 @@ A Reinforcement Learning AI Agent that use Deep Q Network to play Lunar Lander
 * Discount factor: γ = 0.99
 <br>
 
-Commplete evolution (training process): https://youtu.be/XopVALk2xb4
-<br>
+**Commplete evolution (training process): https://youtu.be/XopVALk2xb4**
+<br><br>
 **Description**
 
 * The agent has to learn how to land a Lunar Lander to the moon surface safely, quickly and accurately.
