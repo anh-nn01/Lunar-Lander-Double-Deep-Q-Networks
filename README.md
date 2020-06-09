@@ -7,8 +7,8 @@ A Reinforcement Learning AI Agent that use Deep Q Network to play Lunar Lander
 * Algorithm: Deep Q-Network with a Double Fully connected layers
 * Each Neural Network has the same structure: 2 Fully connected layers each with 128 nodes.
 * Optimization algorithm: Adaptive Moment (Adam)
-* Learning rate: alpha = 0.001
-* Discount factor: gamma = 0.99
+* Learning rate: α = 0.001
+* Discount factor: γ = 0.99
 <br>
 **Description**
 
@@ -45,5 +45,9 @@ The equation above based on Bellman equation. You can try creating a sample grap
 <img src="Double Q.png"><br><br>
 
 <br> It has been proven mathematically and empirically that using this approximation, the algorithm with converge to optimal policy in reasonable amount of time.
+
+<br><br>
+Before training:
+<img src="Initial.gif">
 
 <br><br>
