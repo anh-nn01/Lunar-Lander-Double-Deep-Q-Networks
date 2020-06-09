@@ -47,7 +47,10 @@ The equation above based on Bellman equation. You can try creating a sample grap
 <br> It has been proven mathematically and empirically that using this approximation, the algorithm with converge to optimal policy in reasonable amount of time.
 
 <br><br>
-Before training:
+**Before training:**<br><br>
 <img src="Initial.gif">
+
+**After 800 games:**<br><br>
+<img src="NextGen.gif">
 
 <br><br>
