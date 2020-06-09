@@ -1,5 +1,5 @@
 # Lunar-Lander-Double-Deep-Q-Networks
-An AI agent that use Double Deep Q-learning to land a Lunar Lander on OpenAI universe
+An AI agent that use Double Deep Q-learning to learn by itself how to land a Lunar Lander on OpenAI universe
 # AI-Lunar-Laner-Lander-v2-Keras TF Backend
 A Reinforcement Learning AI Agent that use Deep Q Network to play Lunar Lander
 
