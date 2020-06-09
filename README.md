@@ -10,6 +10,9 @@ A Reinforcement Learning AI Agent that use Deep Q Network to play Lunar Lander
 * Learning rate: α = 0.001
 * Discount factor: γ = 0.99
 <br>
+
+Commplete evolution (training process): https://youtu.be/XopVALk2xb4
+<br>
 **Description**
 
 * The agent has to learn how to land a Lunar Lander to the moon surface safely, quickly and accurately.
@@ -52,8 +55,5 @@ The equation above based on Bellman equation. You can try creating a sample grap
 
 **After 800 games:**<br><br>
 <img src="NextGen.gif">
-
-<br><br>
-Commplete evolution (training process): https://youtu.be/XopVALk2xb4
 
 <br><br>
