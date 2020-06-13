@@ -13,6 +13,8 @@ Algorithm Details and Hyperparameters:
 * Learning rate: α = 0.0001
 * Discount factor: γ = 0.99
 * Minimum exploration rate: ε = 0.1
+* Replay memory size: 10^6
+* Mini batch size: 2^6
 <br>
 **Commplete evolution (training process): https://www.youtube.com/watch?v=XopVALk2xb4&t=286s**
 <br><br>
