@@ -3,6 +3,9 @@ An AI agent that use Double Deep Q-learning to learn by itself how to land a Lun
 # AI-Lunar-Laner-Lander-v2-Keras TF Backend
 A Reinforcement Learning AI Agent that use Deep Q Network to play Lunar Lander
 
+
+Algorithm Details and Hyperparameters:
+===============
 * Implementation: Keras TF Backend
 * Algorithm: Deep Q-Network with a Double Fully connected layers
 * Each Neural Network has the same structure: 2 Fully connected layers each with 128 nodes.
@@ -11,10 +14,11 @@ A Reinforcement Learning AI Agent that use Deep Q Network to play Lunar Lander
 * Discount factor: γ = 0.99
 * Minimum exploration rate: ε = 0.1
 <br>
-
 **Commplete evolution (training process): https://youtu.be/XopVALk2xb4**
 <br><br>
-**Description**
+
+Description of the problem
+===============
 
 * The agent has to learn how to land a Lunar Lander to the moon surface safely, quickly and accurately.
 * If the agent just lets the lander fall freely, it is dangerous and thus get a very negative reward from the environment.
@@ -22,7 +26,8 @@ A Reinforcement Learning AI Agent that use Deep Q Network to play Lunar Lander
 * If the agent lands the lander safely but in wrong position, it is given either a small negative or small positive reward, depending on how far from the landing zone is the lander.
 * If the AI lands the lander to the landing zone quickly and safely, it is successful and is award very positive reward.
 
-
+Double Deep Q Networks (DDQN):
+===============
 * Since the state space is infinite, traditional Q-value table method does not work on this problem. As a result, we need to integrate Q-learning with Neural Network for value approximation. However, the action space remains discrete.
 
 **Q-learning:**<br>
@@ -50,6 +55,9 @@ The equation above based on Bellman equation. You can try creating a sample grap
 
 <br> It has been proven mathematically and empirically that using Deep Q-Network approximation converges to optimal policy in reasonable amount of time.
 
+
+Training Result:
+===============
 <br><br>
 **Before training:**<br><br>
 <img src="Initial.gif">
