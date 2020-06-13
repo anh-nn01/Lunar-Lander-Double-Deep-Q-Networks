@@ -31,27 +31,27 @@ Double Deep Q Networks (DDQN):
 * Since the state space is infinite, traditional Q-value table method does not work on this problem. As a result, we need to integrate Q-learning with Neural Network for value approximation. However, the action space remains discrete.
 
 **Q-learning:**<br>
-<img src="Q-learning.jpg"><br><br>
+<img src="Misc/Q-learning.jpg"><br><br>
 
 The equation above based on Bellman equation. You can try creating a sample graph of MDP to see intuitively why the Q-learning method converge to optimal value, thus converging to optimal policy.
 
 * For Deep Q-learning, we simply use a NN to approximate Q-value in each time step, and then update the NN so that the estimate Q(s,a) approach its target:<br>
-* <img src="Estimation.jpg"><br>
-* <img src="Target.jpg"><br><br>
-* <img src="Loss.jpg"><br><br>
+* <img src="Misc/Estimation.jpg"><br>
+* <img src="Misc/Target.jpg"><br><br>
+* <img src="Misc/Loss.jpg"><br><br>
 
-<img src="Graph.png">
+<img src="Misc/Graph.png">
 
 **Difference between Q-learning and DQN:**<br><br><br>
-<img src="Q-table.jpg"><br><br>
+<img src="Misc/Q-table.jpg"><br><br>
 
-<img src="Q-NN.jpg"><br><br>
+<img src="Misc/Q-NN.jpg"><br><br>
 
 * Purpose of using Double Deep Q-network: 
 * To stablize the target Q-value and ensure convergence.
 * Reference: https://arxiv.org/abs/1509.06461
 
-<img src="Double Q.png"><br><br>
+<img src="Misc/Double Q.png"><br><br>
 
 <br> It has been proven mathematically and empirically that using Deep Q-Network approximation converges to optimal policy in reasonable amount of time.
 
@@ -60,14 +60,14 @@ Training Result:
 ===============
 <br><br>
 **Before training:**<br><br>
-<img src="Initial.gif">
+<img src="Misc/Initial.gif">
 
 **After 800 games:**<br><br>
-<img src="NextGen.gif">
+<img src="Misc/NextGen.gif">
 
 <br><br>
 **Learning curve:**<br><br>
-<img src="Plot.png"><br>
+<img src="Misc/Plot.png"><br>
 
 * The Blue curve shows the reward the agent earned in each episode.
 * The Red curve shows the average reward from the corresponding episode in the x-axis and 100 previous episodes. In other words, it shows the average reward of 100 most current episodes.
