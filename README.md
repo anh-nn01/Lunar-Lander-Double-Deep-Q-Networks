@@ -66,3 +66,13 @@ Training Result:
 <img src="NextGen.gif">
 
 <br><br>
+**Learning curve:**<br><br>
+<img src="Plot.png"><br>
+
+* The Blue curve shows the reward the agent earned in each episode.
+* The Red curve shows the average reward from the corresponding episode in the x-axis and 100 previous episodes. In other words, it shows the average reward of 100 most current episodes.
+* From the plot, we see that the reward earned in each episode is much noisier due to unchanged exploration rate ε = 0.1 throughout the training process and due to the imperfect approximation during some first episodes of the training.
+* Therefore, averaging 100 most current rewards produces much smoother curve.
+* From the curve, we can conclude that the agent has successfully learn a good policy to solve the Lunar Lander problem, according to OpenAI criteria.
+
+<br><br>
