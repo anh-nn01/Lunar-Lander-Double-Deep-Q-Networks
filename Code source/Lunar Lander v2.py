@@ -178,7 +178,7 @@ aver_reward = []
 aver = deque(maxlen=100)
 
 
-for episode in range(1200):
+for episode in range(1000):
     state = env.reset()
     total_reward = 0
     done = False
@@ -187,7 +187,7 @@ for episode in range(1200):
         action = agent.choose_action(state)
         next_state, reward, done, info = env.step(action)
         
-        #env.render()
+        env.render()
 
         total_reward += reward
         
@@ -214,14 +214,13 @@ for episode in range(1200):
         agent.brain_policy.save("C:/Users/nhunh/.spyder-py3/Newest_update.h5")
     """
     
-plt.title("Reward in each episode")
+plt.title("Learning Curve")
 plt.xlabel("Episode")
-plt.ylabel("Reward in each episode")
+plt.ylabel("Reward")
 plt.plot(rewards)
 
-plt.title("Average Reward over last 100 episodes")
-plt.xlabel("Time step")
-plt.ylabel("Average Reward over last 100 episodes")
+plt.xlabel("Episode")
+plt.ylabel("Reward")
 plt.plot(aver_reward, 'r')
 
 agent.brain_policy.save('C:/Users/nhunh/.spyder-py3/Model1.h5')
