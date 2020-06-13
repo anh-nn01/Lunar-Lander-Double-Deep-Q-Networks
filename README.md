@@ -7,8 +7,9 @@ A Reinforcement Learning AI Agent that use Deep Q Network to play Lunar Lander
 * Algorithm: Deep Q-Network with a Double Fully connected layers
 * Each Neural Network has the same structure: 2 Fully connected layers each with 128 nodes.
 * Optimization algorithm: Adaptive Moment (Adam)
-* Learning rate: α = 0.001
+* Learning rate: α = 0.0001
 * Discount factor: γ = 0.99
+* Minimum exploration rate: ε = 0.1
 <br>
 
 **Commplete evolution (training process): https://youtu.be/XopVALk2xb4**
