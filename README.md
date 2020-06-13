@@ -14,7 +14,7 @@ Algorithm Details and Hyperparameters:
 * Discount factor: γ = 0.99
 * Minimum exploration rate: ε = 0.1
 <br>
-**Commplete evolution (training process): https://youtu.be/XopVALk2xb4**
+**Commplete evolution (training process): https://www.youtube.com/watch?v=XopVALk2xb4&t=286s**
 <br><br>
 
 Description of the problem
